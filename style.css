@@ -1,0 +1,213 @@
+body {
+    margin:0;
+    background-color: rgb(197, 140, 101, 0.842);
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    font-display: initial;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #b9c079;
+}
+.header{
+    color: aliceblue;
+}
+
+.law-image{
+    background-image: url("https://images.unsplash.com/photo-1447023029226-ef8f6b52e3ea?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzV8fGxhd3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+  
+    height: 450px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    position:relative;
+    padding: 20px;
+  
+    border-radius: 10px;
+
+}
+h1{
+    font-size: larger;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: grid;
+}
+.nav-items{
+    padding-left: 20%;
+    border-radius: 25px;
+    font-weight: 100px;
+
+}
+.container{
+    padding: 10%;
+    font-size:larger;
+    font-family: 'Courier New', Courier, monospace;
+    height:max-content;
+    display:grid;
+    border-radius: 20px;
+
+}
+
+button:hover {
+box-shadow: 0 0 2px 1px rgba(29, 16, 16, 0.5);
+}
+.img1{
+  background-image:url("https://images.unsplash.com/photo-1447023029226-ef8f6b52e3ea?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzV8fGxhd3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+height: 20%;
+padding: 25%;
+}
+.row{
+    font-display: left;
+    font-size: small;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(26, 10, 10);
+}
+.picture{
+    text-align: center;
+    font-style: oblique;
+    font-family: fantasy;
+    font-size: large;
+}
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: larger;
+}
+
+/* Importing the Roboto font from Google Fonts. */
+@import url("https://fonts.googleapis.com/css?family=Roboto:400");
+
+/* Set font of all elements to 'Roboto' */
+* {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+/* Remove outline of all elements on focus */
+*:focus {
+  outline: 0;
+}
+
+body {
+  background: #263238;  /* Set background color to #263238*/
+}
+
+h3 {
+  text-align: center;
+}
+
+/* Add styles to 'container' class */
+.container {
+  padding: 12px 24px 24px 24px;
+  margin: 48px 12px;
+  background: #E3F2FD;
+  border-radius: 4px;
+}
+
+/* Add styles to 'label' selector */
+label {
+  font-size: 0.85em;
+  margin-left: 12px;
+}
+
+/* Add styles to 'input' and 'textarea' selectors */
+input[type=text],input[type=email], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+/* Add styles to show 'focus' of selector */
+input[type=text]:focus,input[type=email]:focus, textarea:focus {
+  border: 1px solid green;
+}
+
+/* Add styles to the submit button */
+input[type=submit] {
+  background: #121416;
+  margin: 0 auto;
+  outline: 0;
+  color: white;
+  border: 0;
+  padding: 12px 24px;
+  border-radius: 20px;
+  transition: all ease-in-out 0.1s;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+/* Add styles for 'focus' property */
+input[type=submit]:focus {
+  background: #A5D6A7;
+  color: whitesmoke;
+}
+
+/* Style 'hover' property */
+input[type=submit]:hover {
+  background: #2196F3;
+}
+
+/* Align items to center of the 'div' with the class 'center' */
+.center {
+  text-align: center;
+}
+footer{
+  text-align: left;
+  font-size: smaller;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container123{
+  padding: 36px;
+  margin: 28px 22px;
+  background: #404146;
+  border-radius: 28px;   
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+    font-style:oblique; 
+    box-shadow: 0 4px 8px 0 rgba(85, 83, 83, 0.979);
+  
+}
+    .imgContainer{
+      padding: 36px;
+      margin: 28px 22px;
+      background: #404146;
+      border-radius: 28px;   
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: larger;
+        font-style:oblique; 
+        box-shadow: 0 4px 8px 0 rgba(85, 83, 83, 0.979);
+    }
+
+

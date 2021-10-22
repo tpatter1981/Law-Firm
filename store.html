@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: 197, 140, 101, 0.842;
+}
+.header{
+    color: aliceblue;
+}
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+html,body{
+  display: grid;
+  height: 100%;
+  place-items: center;
+  background: #263238;
+}
+::selection{
+  background: rgba(253, 250, 250, 0.3);
+}
+.wrapper{
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.wrapper .box{
+  background: #fff;
+  width: calc(33% - 10px);
+  padding: 25px;
+  border-radius: 3px;
+  box-shadow: 0px 4px 8px rgba(133, 118, 118, 0.15);
+}
+.wrapper .box i.quote{
+  font-size: 20px;
+  color: #fff;
+}
+.wrapper .box .content{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+ 
+}
+.box .info .name{
+  font-weight: 600;
+  font-size: 17px;
+}
+.box .info .job{
+  font-size: 16px;
+  font-weight: 500;
+  color: #1c1d1d;
+}
+.box .info .stars{
+  margin-top: 2px;
+}
+.box .info .stars i{
+  color: #1f2020;
+}
+.box .content .image{
+  height: 75px;
+  width: 75px;
+  padding: 3px;
+  background: #dfe6e6;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px 0 rgba(177, 27, 27, 0.979);
+
+}
+.content .image img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+.box:hover .content .image img{
+  border-color: #fff;
+}
+@media (max-width: 1045px) {
+  .wrapper .box{
+    width: calc(50% - 10px);
+    margin: 10px 0;
+  }
+}
+@media (max-width: 702px) {
+  .wrapper .box{
+    width: 100%;
+  }
+  
+}
+    </style>
+    </head>
+    <body>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto">
+            
+                <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="index.html">Home</a></li>
+                <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="store.html">Testimonial</a></li>
+                <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href=Home.index.html>Newsletter</a></li>
+             
+            </ul>
+        <div class="wrapper">
+            <div class="box">
+              <i class="fas fa-quote-left quote"></i>
+              <p>Lorem aliasry ipsum dolor sits ametans, consectetur adipisicing elitits. Expedita reiciendis itaque placeat thuratu, quasi yiuos repellendus repudiandae deleniti ideas fuga molestiae, alias.</p>
+              <div class="content">
+                <div class="info">
+                  <div class="name">Alex Smith</div>
+                  <div class="job">Client| Baker</div>
+                  <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                  </div>
+                </div>
+                <div class="image">
+                  <img src=https://images.unsplash.com/photo-1623605931891-d5b95ee98459?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGZhY2VzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60 alt="">
+                </div>
+              </div>
+            </div>
+            <div class="box">
+              <i class="fas fa-quote-left quote"></i>
+              <p>Lorem aliasry ipsum dolor sits ametans, consectetur adipisicing elitits. Expedita reiciendis itaque placeat thuratu, quasi yiuos repellendus repudiandae deleniti ideas fuga molestiae, alias.</p>
+              <div class="content">
+                <div class="info">
+                  <div class="name">Sarah Miller</div>
+                  <div class="job">Client | Doctor</div>
+                  <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                  </div>
+                </div>
+                <div class="image">
+                  <img src=https://images.unsplash.com/photo-1573140247632-f8fd74997d5c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjh8fGZhY2VzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60 alt="">
+                </div>
+              </div>
+            </div>
+            <div class="box">
+              <i class="fas fa-quote-left  quote"></i>
+              <p>Lorem aliasry ipsum dolor sits ametans, consectetur adipisicing elitits. Expedita reiciendis itaque placeat thuratu, quasi yiuos repellendus repudiandae deleniti ideas fuga molestiae, alias.</p>
+              <div class="content">
+                <div class="info">
+                  <div class="name">Biff Bellis</div>
+                  <div class="job">Client | Advertiser</div>
+                  <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                  </div>
+                </div>
+                <div class="image">
+                  <img src=https://images.unsplash.com/photo-1555435024-2c4d456b63be?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDF8fGZhY2VzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60 alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+          
+                
+</body>
+</html>

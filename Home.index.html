@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Law Firm</title>
+</head>
+
+<body>
+  
+    
+    <style>
+          ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+           .recentNews {
+    background-color: rgb(73, 85, 92)  
+}
+.recentNews .news-title {
+    text-align:center;
+    padding-top:30px;
+    padding-bottom:30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:55px;
+    font-weight:bold;
+    color: rgb(244, 250, 247);
+}
+.recentNews .row {
+    display: flexbox;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.recentNews .ct-blog {
+    margin-bottom: 30px;
+}
+.ct-blog .inner {
+    background-color: rgb(110, 169, 173);
+    padding: 10px;
+    transition: all 0.2s ease-in-out 0s;
+    cursor: pointer;
+    height: 100%;
+}
+.ct-blog .inner:hover {
+    background-color: #666869;
+}
+.ct-blog .fauxcrop {
+    height: 180px;
+    overflow: hidden;
+}
+.ct-blog .fauxcrop img {
+    width: 100%;
+}
+.ct-blog-content {
+    display: flexbox;
+    padding: 30px 0 28px;
+}
+.ct-blog-content .ct-blog-date {
+    border-right: 1px solid #95a1a6;
+    display: table-cell;
+    font-family: "Lato", sans-serif;
+    padding: 0px 18px 0px 15px;
+    text-align: center;
+}
+.ct-blog-content .ct-blog-date span {
+    font-size: 16px;
+    color: rgb(20, 117, 175);  
+    font-weight: 700;
+    display: block;
+    line-height: 1;
+}
+.ct-blog-content .ct-blog-date strong {
+    font-size: 25px;
+    color: rgb(20, 117, 175);  
+}
+.ct-blog-content .ct-blog-header {
+    color: #000;
+    display: box;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: -0.2px;
+    line-height: 1.1;
+    padding: 0 20px;
+    vertical-align: top;
+}
+.btn-news {
+    color: #333;
+    font-size: 14px;
+    font-weight: bold;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.btn-news.btn-contests a {
+    color: #fff;
+    font-family: 'nimbus-sans-condensed', sans-serif;
+    font-size: 24px;
+    transition: all 0.2s ease-in-out 0s;
+}
+.btn-news.btn-contests a:hover {
+    color: #000;
+}
+      
+      
+                
+  
+  li {
+  float: left;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #6fa4b4;
+}
+.header{
+    color: aliceblue;
+}
+    </style>
+   <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mx-auto">
+    
+        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="index.html">Home</a></li>
+        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="store.html">Testimonial</a></li>
+        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="Home.index.html">Newsletter</a></li>
+     
+    </ul>
+  <section class="recentNews">
+    <div class="container">
+      <h2 class="news-title">Recent News</h2>
+      <div class="row">
+        <div class="ct-blog col-sm-6 col-md-4">
+          <div class="inner">
+            <div class="fauxcrop">
+              <a href="#"><img alt="News Entry" src="https://images.unsplash.com/photo-1457369804613-52c61a468e7d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHdyaXRpbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"></a>
+            
+            </div>
+            <div class="ct-blog-content">
+              <div class="ct-blog-date">
+                <span>March</span><strong>1</strong>
+              </div>
+              <h3 class="ct-blog-header">
+                WebCorpCo Will Be Visiting a Number of Upcoming Conferences
+              </h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean finibus enim nec dui dictum mollis et ut mauris. Donec ac dui ac orci dapibus venenatis vitae sit amet erat. Nullam at consequat augue. Vivamus a dui at orci semper rhoncus eget at nisi. Pellentesque pharetra, ligula sed varius condimentum, ante ex fermentum purus, ac tristique purus libero eu nunc. Sed luctus dictum massa vel ultrices. Quisque aliquam justo neque, vitae elementum elit varius sed. Cras vel felis sit amet risus aliquam ultricies non ac felis. Etiam vitae ipsum vel metus sodales iaculis. Ut ante turpis, vulputate non orci sed, porttitor tincidunt diam. Donec id orci tincidunt, dictum dolor mollis, ultricies eros. Integer efficitur urna vitae erat volutpat vulputate.</p>
+            </div>
+          </div>
+        </div>
+        <div class="ct-blog col-sm-6 col-md-4">
+          <div class="inner">
+            <div class="fauxcrop">
+              <a href="#"><img alt="News Entry" src="https://images.unsplash.com/photo-1457369804613-52c61a468e7d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHdyaXRpbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"></a>
+            
+            </div>
+            <div class="ct-blog-content">
+              <div class="ct-blog-date">
+                <span>February</span><strong>27</strong>
+              </div>
+              <h3 class="ct-blog-header">
+                WebCorpCo Has Been Named to Inc. 5000
+              </h3>
+              p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean finibus enim nec dui dictum mollis et ut mauris. Donec ac dui ac orci dapibus venenatis vitae sit amet erat. Nullam at consequat augue. Vivamus a dui at orci semper rhoncus eget at nisi. Pellentesque pharetra, ligula sed varius condimentum, ante ex fermentum purus, ac tristique purus libero eu nunc. Sed luctus dictum massa vel ultrices. Quisque aliquam justo neque, vitae elementum elit varius sed. Cras vel felis sit amet risus aliquam ultricies non ac felis. Etiam vitae ipsum vel metus sodales iaculis. Ut ante turpis, vulputate non orci sed, porttitor tincidunt diam. Donec id orci tincidunt, dictum dolor mollis, ultricies eros. Integer efficitur urna vitae erat volutpat vulputate.</p>
+            </div>
+          </div>
+        </div>
+        <div class="ct-blog col-sm-6 col-md-4">
+          <div class="inner">
+            <div class="fauxcrop">
+              <a href="#"><img alt="News Entry" src="https://images.unsplash.com/photo-1457369804613-52c61a468e7d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHdyaXRpbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"></a>
+            </div>
+            <div class="ct-blog-content">
+              <div class="ct-blog-date">
+                <span>February</span><strong>25</strong>
+              </div>
+              <h3 class="ct-blog-header">
+                7 Crtical Factors when Choosing a CMS
+              </h3>
+              p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean finibus enim nec dui dictum mollis et ut mauris. Donec ac dui ac orci dapibus venenatis vitae sit amet erat. Nullam at consequat augue. Vivamus a dui at orci semper rhoncus eget at nisi. Pellentesque pharetra, ligula sed varius condimentum, ante ex fermentum purus, ac tristique purus libero eu nunc. Sed luctus dictum massa vel ultrices. Quisque aliquam justo neque, vitae elementum elit varius sed. Cras vel felis sit amet risus aliquam ultricies non ac felis. Etiam vitae ipsum vel metus sodales iaculis. Ut ante turpis, vulputate non orci sed, porttitor tincidunt diam. Donec id orci tincidunt, dictum dolor mollis, ultricies eros. Integer efficitur urna vitae erat volutpat vulputate.</p>
+            </div>
+          </div>
+        </div>
+        <div class="ct-blog col-sm-6 col-md-4">
+          <div class="inner">
+            <div class="fauxcrop">
+              <a href="#"><img alt="News Entry" src="https://images.unsplash.com/photo-1457369804613-52c61a468e7d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHdyaXRpbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"></a>
+            </div>
+            <div class="ct-blog-content">
+              <div class="ct-blog-date">
+                <span>February</span><strong>23</strong>
+              </div>
+              <h3 class="ct-blog-header">
+                The Best Ways to Leverage Data and Deliver on Your Investment
+              </h3>
+              p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean finibus enim nec dui dictum mollis et ut mauris. Donec ac dui ac orci dapibus venenatis vitae sit amet erat. Nullam at consequat augue. Vivamus a dui at orci semper rhoncus eget at nisi. Pellentesque pharetra, ligula sed varius condimentum, ante ex fermentum purus, ac tristique purus libero eu nunc. Sed luctus dictum massa vel ultrices. Quisque aliquam justo neque, vitae elementum elit varius sed. Cras vel felis sit amet risus aliquam ultricies non ac felis. Etiam vitae ipsum vel metus sodales iaculis. Ut ante turpis, vulputate non orci sed, porttitor tincidunt diam. Donec id orci tincidunt, dictum dolor mollis, ultricies eros. Integer efficitur urna vitae erat volutpat vulputate.</p>
+            </div>
+          </div>
+        </div>
+        <div class="ct-blog col-sm-6 col-md-4">
+          <div class="inner">
+            <div class="fauxcrop">
+              <a href="#"><img alt="News Entry" src="https://images.unsplash.com/photo-1457369804613-52c61a468e7d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHdyaXRpbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"></a>
+            </div>
+            <div class="ct-blog-content">
+              <div class="ct-blog-date">
+                <span>February</span><strong>20</strong>
+              </div>
+              <h3 class="ct-blog-header">
+                Latest API Integrations Available through CMS 8
+              </h3>
+              p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean finibus enim nec dui dictum mollis et ut mauris. Donec ac dui ac orci dapibus venenatis vitae sit amet erat. Nullam at consequat augue. Vivamus a dui at orci semper rhoncus eget at nisi. Pellentesque pharetra, ligula sed varius condimentum, ante ex fermentum purus, ac tristique purus libero eu nunc. Sed luctus dictum massa vel ultrices. Quisque aliquam justo neque, vitae elementum elit varius sed. Cras vel felis sit amet risus aliquam ultricies non ac felis. Etiam vitae ipsum vel metus sodales iaculis. Ut ante turpis, vulputate non orci sed, porttitor tincidunt diam. Donec id orci tincidunt, dictum dolor mollis, ultricies eros. Integer efficitur urna vitae erat volutpat vulputate.</p>
+            </div>
+          </div>
+        </div>
+        <div class="ct-blog col-sm-6 col-md-4">
+          <div class="inner">
+            <div class="fauxcrop">
+              <a href="#"><img alt="News Entry" src="https://images.unsplash.com/photo-1457369804613-52c61a468e7d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHdyaXRpbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"></a>
+            </div>
+            <div class="ct-blog-content">
+              <div class="ct-blog-date">
+                <span>February</span><strong>16</strong>
+              </div>
+              <h3 class="ct-blog-header">
+                WebCorpCo's Latest Release (CMS 8) Available Today
+              </h3>
+              p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean finibus enim nec dui dictum mollis et ut mauris. Donec ac dui ac orci dapibus venenatis vitae sit amet erat. Nullam at consequat augue. Vivamus a dui at orci semper rhoncus eget at nisi. Pellentesque pharetra, ligula sed varius condimentum, ante ex fermentum purus, ac tristique purus libero eu nunc. Sed luctus dictum massa vel ultrices. Quisque aliquam justo neque, vitae elementum elit varius sed. Cras vel felis sit amet risus aliquam ultricies non ac felis. Etiam vitae ipsum vel metus sodales iaculis. Ut ante turpis, vulputate non orci sed, porttitor tincidunt diam. Donec id orci tincidunt, dictum dolor mollis, ultricies eros. Integer efficitur urna vitae erat volutpat vulputate.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="btn-news btn-contests">
+        <a href="#">VIEW ALL NEWS</a>
+      </div>
+    </div>
+  </section>
+  
+</body>
+</html>
